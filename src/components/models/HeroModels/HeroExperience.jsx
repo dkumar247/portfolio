@@ -7,7 +7,7 @@ import HeroLights from "./HeroLights.jsx";
 import Particles from "./Particles.jsx";
 
 const HeroExperience = () => {
-    const isTablet = useMediaQuery({query: "(max-width: 1024px)"});
+    // const isTablet = useMediaQuery({query: "(max-width: 1024px)"});
     const isMobile = useMediaQuery({query: "(max-width: 768px)"});
 
     return (
@@ -15,7 +15,8 @@ const HeroExperience = () => {
 
             <OrbitControls
                 enablePan={false}
-                enableZoom={!isTablet}
+                enableZoom={false}
+                // enableZoom={isTablet}
                 maxDistance={20}
                 minDistance={5}
                 minPolarAngle={Math.PI / 5}
