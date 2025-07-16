@@ -1,7 +1,7 @@
 import React from 'react'
 import {words} from "../constants/index.js";
 import Button from "../components/Button.jsx";
-import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
+import HeroExperience from "../components/models/HeroModels/HeroExperience.jsx";
 import {useGSAP} from '@gsap/react';
 import gsap from 'gsap';
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
@@ -54,7 +54,7 @@ const Hero = () => {
                                 </span>
                             </h1>
                             <h1>into Real Projects</h1>
-                            <h1>that Deliver Results</h1>
+                            <h1>that Deliver Results.</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             Hi, I'm Deepanshu, a Software Developer, a Student <br/> and sometimes a Cook
